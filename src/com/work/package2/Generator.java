@@ -1,24 +1,63 @@
 package com.work.package2;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Generator {
     private static List<Human> humans = new ArrayList<>();
-    private static String[] imena = {"Alex", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""};
+    private static String[] imena = {"Alex", "Anthony", "Brandon", "Christopher", "David"};
+    private static String[] limena = {"Allen", "Anderson", "Brown", "Clark", "Davis"};
     public static void main(String[] args) {
         for(int i = 0; i < 50; i++){
-            humans.add(new Human((int)(Math.random() * 100), (int) (Math.random() * 150) + 50, "", "", LocalDate.of(1914, 12, 31)));
+            int currY = LocalDateTime.now().getYear();
+            int YearOB = (int)(Math.random()*(currY-20));
+            humans.add(new Human((currY - YearOB), (int) (Math.random() * 150) + 50, imena[(int)(Math.random()*4)], limena[(int)(Math.random()*4)], LocalDate.of(YearOB, (int)(Math.random()*11) + 1, (int)(Math.random()*27)+1)));
         }
-        for(Human hum : humans){
-            System.out.println(hum.age);
-            System.out.println(hum.firstName);
-            System.out.println(hum.lastName);
-            System.out.println(hum.weight);
-            System.out.println(hum.birthDate);
-            System.out.println("");
-            System.out.println("Следующий человек: ");
-        }
+        /*for(Human hum : humans){
+            vyvod(hum);
+        }*/
+        VBI();
+    }
+    public static void VBI()
+    {
+        Stream<Human> stream = humans.stream();
+        stream.sorted((i1, i2) -> {
+            int vbi1 = (int)(i1.firstName.charAt(1));
+            int vbi2 = (int)(i2.firstName.charAt(1));
+            if(vbi1 > vbi2)
+                return 1;
+            if(vbi1 < vbi2)
+                return -1;
+            return 0;
+        })
+        .forEach(Generator::vyvod);
+    }
+    public static void KRD()
+    {
+
+    }
+    public static void PRVNV()
+    {
+
+    }
+    public static void PRVV()
+    {
+
+    }
+    public boolean compare(Human h1, Human h2) {
+        return h1.age > h2.age;
+    }
+    public static void vyvod(Human h)
+    {
+        System.out.println(h.age);
+        System.out.println(h.firstName);
+        System.out.println(h.lastName);
+        System.out.println(h.weight);
+        System.out.println(h.birthDate);
+        System.out.println("");
+        System.out.println("Следующий человек: ");
     }
 }
