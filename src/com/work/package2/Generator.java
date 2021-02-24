@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Stream;
 
 public class Generator {
@@ -16,48 +17,6 @@ public class Generator {
             int YearOB = (int)(Math.random()*(currY-20));
             humans.add(new Human((currY - YearOB), (int) (Math.random() * 150) + 50, imena[(int)(Math.random()*4)], limena[(int)(Math.random()*4)], LocalDate.of(YearOB, (int)(Math.random()*11) + 1, (int)(Math.random()*27)+1)));
         }
-        /*for(Human hum : humans){
-            vyvod(hum);
-        }*/
-        VBI();
-    }
-    public static void VBI()
-    {
-        Stream<Human> stream = humans.stream();
-        stream.sorted((i1, i2) -> {
-            int vbi1 = (int)(i1.firstName.charAt(1));
-            int vbi2 = (int)(i2.firstName.charAt(1));
-            if(vbi1 > vbi2)
-                return 1;
-            if(vbi1 < vbi2)
-                return -1;
-            return 0;
-        })
-        .forEach(Generator::vyvod);
-    }
-    public static void KRD()
-    {
-
-    }
-    public static void PRVNV()
-    {
-
-    }
-    public static void PRVV()
-    {
-
-    }
-    public boolean compare(Human h1, Human h2) {
-        return h1.age > h2.age;
-    }
-    public static void vyvod(Human h)
-    {
-        System.out.println(h.age);
-        System.out.println(h.firstName);
-        System.out.println(h.lastName);
-        System.out.println(h.weight);
-        System.out.println(h.birthDate);
-        System.out.println("");
-        System.out.println("Следующий человек: ");
+        new Main(humans);
     }
 }
