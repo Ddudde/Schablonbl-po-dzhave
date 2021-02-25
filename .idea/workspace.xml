@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6772ea83-bbb5-402d-a3dd-5937f5fafd1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/work/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/work/package3/Mapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package3/Mapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/work/package3/Sett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package3/Sett.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/work/package4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.work.package2.Generator" />
       <module name="Шаблоны по Джаве" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Mapp" />
         <item itemvalue="Application.Sett" />
         <item itemvalue="Application.Generator" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

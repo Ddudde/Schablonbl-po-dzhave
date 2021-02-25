@@ -14,7 +14,7 @@ public class Mapp {
         ExecutorService executor = Executors.newFixedThreadPool(2);
         Map<String, String> map = new HashMap<>();
         ReadWriteLock lock = new ReentrantReadWriteLock();
-
+        map.put("foo1", "bar");
         executor.submit(() -> {
             lock.writeLock().lock();
             try {
@@ -28,5 +28,6 @@ public class Mapp {
                 lock.writeLock().unlock();
             }
         });
+        System.out.println(map);
     }
 }
