@@ -8,7 +8,18 @@ import java.util.function.Function;
 public class Main {
     public static void main(String[] args) throws IOException {
         Function<int[], Integer> abrakadabra = (x) -> {
-            return gcd(x[0],x[1]);
+            int a = x[0];
+            int b = x[1];
+            if (a == 0)
+                return b;
+
+            while (b != 0) {
+                if (a > b)
+                    a = a - b;
+                else
+                    b = b - a;
+            }
+            return a;
         };
         Scanner in = new Scanner(System.in);
         int num1 = 0, num2 = 0;
@@ -24,9 +35,5 @@ public class Main {
             return;
         }
         System.out.println("НОД: " + abrakadabra.apply(new int[]{num1, num2}));
-    }
-    private static int gcd(int a, int b) {
-        if (b==0) return a;
-        return gcd(b,a%b);
     }
 }
