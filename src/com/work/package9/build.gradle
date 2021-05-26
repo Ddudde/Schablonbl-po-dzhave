@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+}
+
+group ''
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Hello'
+    }
+}
+
+task copyJarToBin(type: Copy) {
+    from 'build/libs/package9-1.0-SNAPSHOT.jar'
+    into "C:/Users/DonJuan/data"
+}
+
+task compImg(type: Exec) {
+    workingDir 'C:\\Users\\DonJuan'
+    commandLine "docker", "build", "-t", "imge", "."
+}
+
+task runImg(type: Exec) {
+    workingDir 'C:\\Users\\DonJuan'
+    commandLine "docker", "run", "imge", "/usr/bin/java", "-jar", "/mnt/files/package9-1.0-SNAPSHOT.jar"
+}
+
+task runnn {
+    dependsOn(jar)
+    dependsOn(copyJarToBin)
+    dependsOn(compImg)
+    dependsOn(runImg)
+    copyJarToBin.mustRunAfter(jar)
+    compImg.mustRunAfter(copyJarToBin)
+    runImg.mustRunAfter(compImg)
+}

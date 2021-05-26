@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6772ea83-bbb5-402d-a3dd-5937f5fafd1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package2/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package2/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package3/Mapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package3/Mapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package3/Sett.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package3/Sett.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package4/Pelbmenb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Шаблоны по Джаве/com/work/package4/Pelbmenb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/work/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/work/package2/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package2/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/work/package2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/work/package3/Mapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package3/Mapp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/work/package3/Sett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package3/Sett.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/work/package4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/work/package4/Pelbmenb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/work/package4/Pelbmenb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,18 +46,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Технология разработки программных приложений/2 практика/trpp-second-4-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.work.package2.Generator" />
+  <component name="RunManager" selected="Application.Hello">
+    <configuration name="Example (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.work.package7.dekor.Example" />
       <module name="Шаблоны по Джаве" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.work.package2.*" />
+          <option name="PATTERN" value="com.work.package7.dekor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.work.package4.Main" />
+    <configuration name="Example (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.work.package7.fasad.Example" />
       <module name="Шаблоны по Джаве" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.work.package4.*" />
+          <option name="PATTERN" value="com.work.package7.fasad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.work.package1.Main" />
+    <configuration name="Example (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.work.package8.posrednik.Example" />
       <module name="Шаблоны по Джаве" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.work.package1.*" />
+          <option name="PATTERN" value="com.work.package8.posrednik.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.work.package3.Mapp" />
+    <configuration name="Example (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.work.package8.snimok.Example" />
       <module name="Шаблоны по Джаве" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.work.package3.*" />
+          <option name="PATTERN" value="com.work.package8.snimok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sett" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.work.package3.Sett" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.work.package9.Hello" />
       <module name="Шаблоны по Джаве" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.work.package3.*" />
+          <option name="PATTERN" value="com.work.package9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Mapp" />
-        <item itemvalue="Application.Sett" />
-        <item itemvalue="Application.Generator" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.Example (5)" />
+        <item itemvalue="Application.Example (4)" />
+        <item itemvalue="Application.Example (3)" />
+        <item itemvalue="Application.Example (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -128,5 +140,31 @@
       <updated>1613043866837</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1621498015316">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1621498015316" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1621498060125">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1621498060125" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1621498060125">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1621498060125" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1621498060125">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1621498060125" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1621498060125">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1621498060125" />
+    <state x="365" y="50" key="new project wizard" timestamp="1621498053726">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="365" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1621498053726" />
   </component>
 </project>
