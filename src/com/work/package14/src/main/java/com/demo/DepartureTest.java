@@ -21,15 +21,15 @@ public class DepartureTest {
         departures.add(new Departure("Посылка", "20.05.2021"));
     }
 
-    public void add(Departure level) {
-        departures.add(level);
+    public void add(Departure departure) {
+        departures.add(departure);
     }
 
     public List<Departure> getAll() {
         return departures;
     }
 
-    public void delete(Departure level) {
-        departures.remove(level);
+    public void delete(Departure departure) {
+        departures.remove(departure);
     }
 }

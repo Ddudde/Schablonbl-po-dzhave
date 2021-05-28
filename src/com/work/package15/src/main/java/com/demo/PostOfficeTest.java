@@ -1,35 +1,50 @@
 package com.demo;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import javax.annotation.PreDestroy;
 import java.util.List;
 
 @Service
 public class PostOfficeTest {
 
-    private List<PostOffice> postOffices;
+    @Autowired
+    private final SessionFactory sessionFactory;
 
-    public PostOfficeTest() {
-        postOffices = new ArrayList<>();
+    private Session session;
+
+    public PostOfficeTest(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
         initialize();
     }
 
     private void initialize() {
-        postOffices.add(new PostOffice("Это скандал!", "Москва"));
-        postOffices.add(new PostOffice("Давно не виделись", "Санкт-Петербург"));
-        postOffices.add(new PostOffice("к19_16", "Москва"));
+        session = sessionFactory.openSession();
     }
 
-    public void add(PostOffice level) {
-        postOffices.add(level);
+    @PreDestroy
+    public void unSession() {
+        session.close();
+    }
+
+    public void add(PostOffice postOffice) {
+        session.beginTransaction();
+        session.saveOrUpdate(postOffice);
+        session.getTransaction().commit();
     }
 
     public List<PostOffice> getAll() {
-        return postOffices;
+        return session.createQuery("From postoffice", PostOffice.class).list();
     }
 
-    public void delete(PostOffice level) {
-        postOffices.remove(level);
+    public void delete(int id) {
+        session.beginTransaction();
+        PostOffice postOffice = session.find(PostOffice.class, id);
+        if(postOffice != null)
+            session.delete(postOffice);
+        session.getTransaction().commit();
     }
 }

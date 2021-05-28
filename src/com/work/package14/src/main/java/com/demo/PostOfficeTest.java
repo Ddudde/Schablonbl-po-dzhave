@@ -21,15 +21,15 @@ public class PostOfficeTest {
         postOffices.add(new PostOffice("к19_16", "Москва"));
     }
 
-    public void add(PostOffice level) {
-        postOffices.add(level);
+    public void add(PostOffice postOffice) {
+        postOffices.add(postOffice);
     }
 
     public List<PostOffice> getAll() {
         return postOffices;
     }
 
-    public void delete(PostOffice level) {
-        postOffices.remove(level);
+    public void delete(PostOffice postOffice) {
+        postOffices.remove(postOffice);
     }
 }

@@ -1,35 +1,50 @@
 package com.demo;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import javax.annotation.PreDestroy;
 import java.util.List;
 
 @Service
-public class DepartureTest {
+public class DepartureTest{
 
-    private final List<Departure> departures;
+    @Autowired
+    private final SessionFactory sessionFactory;
 
-    public DepartureTest() {
-        departures = new ArrayList<>();
+    private Session session;
+
+    public DepartureTest(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
         initialize();
     }
 
     private void initialize() {
-        departures.add(new Departure("Письмо", "20.04.2021"));
-        departures.add(new Departure("Бандероль", "10.05.2021"));
-        departures.add(new Departure("Посылка", "20.05.2021"));
+        session = sessionFactory.openSession();
     }
 
-    public void add(Departure level) {
-        departures.add(level);
+    @PreDestroy
+    public void unSession() {
+        session.close();
+    }
+
+    public void add(Departure departure) {
+        session.beginTransaction();
+        session.saveOrUpdate(departure);
+        session.getTransaction().commit();
     }
 
     public List<Departure> getAll() {
-        return departures;
+        return session.createQuery("From departure", Departure.class).list();
     }
 
-    public void delete(Departure level) {
-        departures.remove(level);
+    public void delete(int id) {
+        session.beginTransaction();
+        Departure departure = session.find(Departure.class, id);
+        if(departure != null)
+            session.delete(departure);
+        session.getTransaction().commit();
     }
 }

@@ -25,7 +25,7 @@ public class DepartureController {
         return deps;
     }
 
-    @DeleteMapping("/deleteDeparture")
+    @PostMapping("/deleteDeparture")
     public void delete(@RequestBody Departure departure) {
         test.delete(departure);
     }

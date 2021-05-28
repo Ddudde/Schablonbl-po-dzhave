@@ -19,13 +19,16 @@ public class PostOfficeController {
 
     @GetMapping("/getPostOffices")
     public List<String> getAll() {
-        List<String> deps = new ArrayList<>();
-        for(PostOffice sd : test.getAll()) deps.add(sd.toString());
-        return deps;
+        List<String> posts = new ArrayList<>();
+        for(PostOffice sd : test.getAll()) posts.add(sd.toString());
+        return posts;
     }
 
-    @DeleteMapping("/deletePostOffice")
-    public void delete(@RequestBody PostOffice postOffice) {
-        test.delete(postOffice);
+    @GetMapping("/deletePostOffice/{id}")
+    public List<String> delete(@PathVariable int id) {
+        test.delete(id);
+        List<String> posts = new ArrayList<>();
+        for(PostOffice sd : test.getAll()) posts.add(sd.toString());
+        return posts;
     }
 }

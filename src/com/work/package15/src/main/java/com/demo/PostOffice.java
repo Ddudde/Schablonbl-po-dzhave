@@ -1,18 +1,54 @@
 package com.demo;
 
-public class PostOffice {
-    private final String name;
-    private final String cityName;
+import javax.persistence.*;
 
-    public PostOffice(String name, String cityName) {
+@Entity(name = "postoffice")
+@Table(name = "postoffice")
+public class PostOffice {
+
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @Column(name = "name")
+    private String name;
+
+    @Column(name = "city_name")
+    private String cityName;
+
+    public PostOffice() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
+    }
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
 
     @Override
     public String toString() {
         return "PostOffice{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", cityName='" + cityName + '\'' +
                 '}';
     }
