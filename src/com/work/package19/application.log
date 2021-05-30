@@ -1,0 +1,240 @@
+3870 [main] INFO  com.demo.DemoApplication
+                – Starting DemoApplication using Java 1.8.0_181 on DESKTOP-B05SD6G with PID 8300 (F:\Rep\Schablonbl-po-dzhave\src\com\work\package19\build\classes\java\main started by DonJuan in F:\Rep\Schablonbl-po-dzhave\src\com\work\package19)
+3883 [main] INFO  com.demo.DemoApplication
+                – No active profile set, falling back to default profiles: default
+6981 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+7230 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 208 ms. Found 2 JPA repository interfaces.
+11866 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+11905 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+11907 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+11908 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.45]
+12333 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+12333 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 8188 ms
+13644 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+16702 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+16978 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+17224 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.30.Final
+17921 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18546 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+22072 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22121 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+24211 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                – Autowired annotation is not supported on static fields: public static com.demo.DepRep com.demo.DepartureTest.depRep
+24437 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                – Autowired annotation is not supported on static fields: public static com.demo.PostRep com.demo.PostOfficeTest.postRep
+24800 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27050 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+30055 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+30153 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+30185 [main] INFO  com.demo.DemoApplication
+                – Started DemoApplication in 28.02 seconds (JVM running for 31.019)
+2910 [main] INFO  com.demo.DemoApplication
+                 Starting DemoApplication using Java 1.8.0_181 on DESKTOP-B05SD6G with PID 8320 (F:\Rep\Schablonbl-po-dzhave\src\com\work\package19\build\classes\java\main started by DonJuan in F:\Rep\Schablonbl-po-dzhave\src\com\work\package19)
+2927 [main] INFO  com.demo.DemoApplication
+                 No active profile set, falling back to default profiles: default
+6095 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+6336 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                 Finished Spring Data repository scanning in 199 ms. Found 2 JPA repository interfaces.
+10720 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                 Tomcat initialized with port(s): 8080 (http)
+10796 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                 Initializing ProtocolHandler ["http-nio-8080"]
+10799 [main] INFO  o.a.catalina.core.StandardService
+                 Starting service [Tomcat]
+10805 [main] INFO  o.a.catalina.core.StandardEngine
+                 Starting Servlet engine: [Apache Tomcat/9.0.45]
+11333 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                 Initializing Spring embedded WebApplicationContext
+11334 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                 Root WebApplicationContext: initialization completed in 8076 ms
+3456 [main] INFO  com.demo.DemoApplication
+                - Starting DemoApplication using Java 1.8.0_181 on DESKTOP-B05SD6G with PID 4340 (F:\Rep\Schablonbl-po-dzhave\src\com\work\package19\build\classes\java\main started by DonJuan in F:\Rep\Schablonbl-po-dzhave\src\com\work\package19)
+3470 [main] INFO  com.demo.DemoApplication
+                - No active profile set, falling back to default profiles: default
+3140 [main] INFO  com.demo.DemoApplication
+                - Starting DemoApplication using Java 1.8.0_181 on DESKTOP-B05SD6G with PID 10124 (F:\Rep\Schablonbl-po-dzhave\src\com\work\package19\build\classes\java\main started by DonJuan in F:\Rep\Schablonbl-po-dzhave\src\com\work\package19)
+3148 [main] INFO  com.demo.DemoApplication
+                - No active profile set, falling back to default profiles: default
+6136 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+6366 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                - Finished Spring Data repository scanning in 193 ms. Found 2 JPA repository interfaces.
+11119 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                - Tomcat initialized with port(s): 8080 (http)
+11160 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                - Initializing ProtocolHandler ["http-nio-8080"]
+11163 [main] INFO  o.a.catalina.core.StandardService
+                - Starting service [Tomcat]
+11164 [main] INFO  o.a.catalina.core.StandardEngine
+                - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11572 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                - Initializing Spring embedded WebApplicationContext
+11572 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                - Root WebApplicationContext: initialization completed in 8168 ms
+12847 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                - HikariPool-1 - Starting...
+15904 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                - HikariPool-1 - Start completed.
+16179 [main] INFO  o.h.jpa.internal.util.LogHelper
+                - HHH000204: Processing PersistenceUnitInfo [name: default]
+16425 [main] INFO  org.hibernate.Version
+                - HHH000412: Hibernate ORM core version 5.4.30.Final
+17082 [main] INFO  o.h.annotations.common.Version
+                - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17751 [main] INFO  org.hibernate.dialect.Dialect
+                - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+21066 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21106 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23130 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                - Autowired annotation is not supported on static fields: public static com.demo.DepRep com.demo.DepartureTest.depRep
+23346 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                - Autowired annotation is not supported on static fields: public static com.demo.PostRep com.demo.PostOfficeTest.postRep
+23691 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25700 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                - Initializing ExecutorService 'applicationTaskExecutor'
+28730 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                - Starting ProtocolHandler ["http-nio-8080"]
+28813 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                - Tomcat started on port(s): 8080 (http) with context path ''
+28866 [main] INFO  com.demo.DemoApplication
+                - Started DemoApplication in 27.308 seconds (JVM running for 29.668)
+3841 [main] INFO  com.demo.DemoApplication
+                - Starting DemoApplication using Java 1.8.0_181 on DESKTOP-B05SD6G with PID 6932 (F:\Rep\Schablonbl-po-dzhave\src\com\work\package19\build\classes\java\main started by DonJuan in F:\Rep\Schablonbl-po-dzhave\src\com\work\package19)
+3855 [main] INFO  com.demo.DemoApplication
+                - No active profile set, falling back to default profiles: default
+7348 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+7581 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                - Finished Spring Data repository scanning in 195 ms. Found 2 JPA repository interfaces.
+12211 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                - Tomcat initialized with port(s): 8080 (http)
+12300 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                - Initializing ProtocolHandler ["http-nio-8080"]
+12303 [main] INFO  o.a.catalina.core.StandardService
+                - Starting service [Tomcat]
+12304 [main] INFO  o.a.catalina.core.StandardEngine
+                - Starting Servlet engine: [Apache Tomcat/9.0.45]
+12780 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                - Initializing Spring embedded WebApplicationContext
+12781 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                - Root WebApplicationContext: initialization completed in 8432 ms
+14247 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                - HikariPool-1 - Starting...
+17174 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                - HikariPool-1 - Start completed.
+17429 [main] INFO  o.h.jpa.internal.util.LogHelper
+                - HHH000204: Processing PersistenceUnitInfo [name: default]
+17686 [main] INFO  org.hibernate.Version
+                - HHH000412: Hibernate ORM core version 5.4.30.Final
+18417 [main] INFO  o.h.annotations.common.Version
+                - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19042 [main] INFO  org.hibernate.dialect.Dialect
+                - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+22495 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22541 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24549 [main] INFO  com.demo.DepartureTest
+                - init DepartureTest
+24551 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                - Autowired annotation is not supported on static fields: public static com.demo.DepRep com.demo.DepartureTest.depRep
+24828 [main] INFO  com.demo.PostOfficeTest
+                - init PostOfficeTest
+24830 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                - Autowired annotation is not supported on static fields: public static com.demo.PostRep com.demo.PostOfficeTest.postRep
+25172 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27499 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                - Initializing ExecutorService 'applicationTaskExecutor'
+30611 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                - Starting ProtocolHandler ["http-nio-8080"]
+30720 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                - Tomcat started on port(s): 8080 (http) with context path ''
+30792 [main] INFO  com.demo.DemoApplication
+                - Started DemoApplication in 28.73 seconds (JVM running for 31.909)
+3169 [main] INFO  com.demo.DemoApplication
+                - Starting DemoApplication using Java 1.8.0_181 on DESKTOP-B05SD6G with PID 7180 (F:\Rep\Schablonbl-po-dzhave\src\com\work\package19\build\classes\java\main started by DonJuan in F:\Rep\Schablonbl-po-dzhave\src\com\work\package19)
+3182 [main] INFO  com.demo.DemoApplication
+                - No active profile set, falling back to default profiles: default
+6085 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+6314 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                - Finished Spring Data repository scanning in 194 ms. Found 2 JPA repository interfaces.
+11254 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                - Tomcat initialized with port(s): 8080 (http)
+11294 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                - Initializing ProtocolHandler ["http-nio-8080"]
+11296 [main] INFO  o.a.catalina.core.StandardService
+                - Starting service [Tomcat]
+11297 [main] INFO  o.a.catalina.core.StandardEngine
+                - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11809 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                - Initializing Spring embedded WebApplicationContext
+11809 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                - Root WebApplicationContext: initialization completed in 8385 ms
+15829 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                - HikariPool-1 - Starting...
+19029 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                - HikariPool-1 - Start completed.
+19324 [main] INFO  o.h.jpa.internal.util.LogHelper
+                - HHH000204: Processing PersistenceUnitInfo [name: default]
+19569 [main] INFO  org.hibernate.Version
+                - HHH000412: Hibernate ORM core version 5.4.30.Final
+20274 [main] INFO  o.h.annotations.common.Version
+                - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20909 [main] INFO  org.hibernate.dialect.Dialect
+                - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+24955 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24994 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27051 [main] INFO  com.demo.DepartureTest
+                - init DepartureTest
+27051 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                - Autowired annotation is not supported on static fields: public static com.demo.DepRep com.demo.DepartureTest.depRep
+27269 [main] INFO  com.demo.PostOfficeTest
+                - init PostOfficeTest
+27269 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+                - Autowired annotation is not supported on static fields: public static com.demo.PostRep com.demo.PostOfficeTest.postRep
+28009 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+31209 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                - Initializing ExecutorService 'applicationTaskExecutor'
+34866 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                - Starting ProtocolHandler ["http-nio-8080"]
+35017 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                - Tomcat started on port(s): 8080 (http) with context path ''
+35059 [main] INFO  com.demo.DemoApplication
+                - Started DemoApplication in 33.501 seconds (JVM running for 35.999)
+50452 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                - Initializing Spring DispatcherServlet 'dispatcherServlet'
+50453 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                - Initializing Servlet 'dispatcherServlet'
+50460 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                - Completed initialization in 7 ms
+50620 [http-nio-8080-exec-1] INFO  com.demo.DepartureTest
+                - get Departures...

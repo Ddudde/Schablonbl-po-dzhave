@@ -34,7 +34,7 @@ public class DepartureController {
     }
 
     @GetMapping(value = "/departure/{Id}/post_office")
-    public @ResponseBody PostOffice getGame(@PathVariable("Id") int id){
+    public @ResponseBody PostOffice getPost(@PathVariable("Id") int id){
         return test.getPostOffice(id);
     }
 

@@ -33,9 +33,9 @@ public class DepartureController {
         return deps;
     }
 
-    @GetMapping("/getDepFilteredBy/{crit}")
-    public List<Departure> getFilteredByCrit(@PathVariable String crit){
-        return test.getByCrit(crit);
+    @GetMapping("/getDepBy/{crit}/{arg}")
+    public List<Departure> getFilteredByCrit(@PathVariable String crit, @PathVariable String arg){
+        return test.getByCrit(crit, arg);
     }
 
     @GetMapping(value = "/departure/{Id}/post_office")
