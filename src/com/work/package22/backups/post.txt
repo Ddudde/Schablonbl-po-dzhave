@@ -1,0 +1,3 @@
+PostOffice{id=1, name='Это скандал!', cityName='Москва'}
+PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}
+PostOffice{id=3, name='к16_19', cityName='Москва'}

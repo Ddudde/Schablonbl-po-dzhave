@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="/css/style.css"></link>
+    </head>
+    <body>
+        <div th:if="${passwordError}" th:text="${passwordError}">
+        </div>
+        <div th:if="${usernameError}" th:text="${usernameError}">
+        </div>
+        <form style="height: 300px;" th:action="@{/reg}" class="login1" method="post">
+            <h1>Форма регистрации</h1>
+            <fieldset class="inputs1">
+                <input type="text" class="username1" name="username" placeholder="Логин" autofocus required>
+                <input type="password" class="password1" name="password" placeholder="Пароль" required>
+                <input type="password" class="password1" name="passwordConfirm" placeholder="Подтвердите пароль" required>
+            </fieldset>
+            <fieldset class="actions1">
+                <input type="submit" class="submit1" value="Зарегистрироваться" style="width: 170px">
+                <a href="/login">Авторизация</a>
+            </fieldset>
+        </form>
+    </body>
+</html>

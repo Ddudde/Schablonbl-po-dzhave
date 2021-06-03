@@ -1,0 +1,11 @@
+Departure{id='79'type='value1', departureDate='value2', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='81'type='value1', departureDate='value2', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='82'type='value1', departureDate='value2', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='83'type='value1', departureDate='value2', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='1'type='Letter', departureDate='20.04.2021', post_office=PostOffice{id=1, name='Это скандал!', cityName='Москва'}}
+Departure{id='2'type='Parcel', departureDate='10.05.2021', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='3'type='The package', departureDate='20.05.2021', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='10'type='value1', departureDate='value2', post_office=PostOffice{id=1, name='Это скандал!', cityName='Москва'}}
+Departure{id='84'type='value1', departureDate='value2', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='70'type='value1', departureDate='value2', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}
+Departure{id='78'type='value1', departureDate='value2', post_office=PostOffice{id=2, name='Давно не виделись', cityName='Санкт-Петербург'}}

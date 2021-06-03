@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Авторизация</title>
+        <link rel="stylesheet" href="/css/style.css"></link>
+    </head>
+    <body>
+        <div th:if="${param.error}">
+            Неверный логин или пароль
+        </div>
+        <div th:if="${param.logout}">
+            Вы вышли из аккаунта
+        </div>
+        <form th:action="@{/login}" class="login1" method="post">
+            <h1>Форма входа</h1>
+            <fieldset class="inputs1">
+                <input type="text" class="username1" name="username" placeholder="Логин" autofocus required>
+                <input type="password" class="password1" name="password" placeholder="Пароль" required>
+            </fieldset>
+            <fieldset class="actions1">
+                <input type="submit" class="submit1" value="ВОЙТИ">
+                <a href="/reg">Регистрация</a>
+            </fieldset>
+        </form>
+    </body>
+</html>
